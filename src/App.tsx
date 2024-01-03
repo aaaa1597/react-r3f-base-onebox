@@ -23,7 +23,7 @@ const Box = (props: MeshProps) => {
 
 const App = () => {
   return (
-    <div style={{ width: "75vw", height: "75vh" }}>
+    <div style={{ width: "100vw", height: "75vh" }}>
       <Canvas camera={{ position: [3, 1, 2] }}>
         <Box position={[1, 1, 1]} name="A" />
         <Environment preset="forest" background />
